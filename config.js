@@ -56,7 +56,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/d4WBZWqk/1.png',
+            image: 'https://i.ibb.co/S4SSS7zJ/1.png',
             description: '',
             location: {
               center: [28.98510378818441,41.036986544282165],
@@ -86,7 +86,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/kjRm4Y5/2.png',
+            image: 'https://i.ibb.co/SDxgBQYK/2.png',
             description: '',
             location: {
               center: [28.98510378818441,41.036986544282165],
@@ -113,10 +113,10 @@ var config = {
         },
         {
             id: '3',
-            alignment: 'centered',
+            alignment: 'full',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/xKnKyPdn/3.png',
+            image: 'https://i.ibb.co/JjpLLmRB/3.png',
             description: '',
             location: {
                  center: [28.98510378818441,41.036986544282165],
@@ -143,10 +143,10 @@ var config = {
         },
         {
             id: '4',
-            alignment: 'left',
+            alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/fV0bYPRR/4.png',
+            image: 'https://i.ibb.co/4wxvVz0h/4.png',
             description: '',
             location: {
                  center: [28.98510378818441,41.036986544282165],
@@ -170,10 +170,10 @@ var config = {
         },
         {
             id: '5',
-            alignment: 'centered',
+            alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/gLpmM9BH/5.png',
+            image: 'https://i.ibb.co/mCgLfXcC/5.png',
             description: '',
             location: {
                 center: [28.98510378818441,41.036986544282165],
@@ -189,7 +189,7 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 0, // change the speed at which it zooms out
             },
-            mapAnimation: 'right',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
@@ -200,7 +200,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/qMvZvJ3r/6.png',
+            image: 'https://i.ibb.co/FkLM9Zhh/6.png',
             description: '',
             location: {
                 center: [28.98510378818441,41.036986544282165],
@@ -216,8 +216,8 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 0, // change the speed at which it zooms out
             },
-            mapAnimation: 'right',
-            rotateAnimation: true,
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
