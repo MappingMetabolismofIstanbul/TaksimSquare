@@ -19,7 +19,7 @@ var config = {
     title: 'Taksim Meydanı ve Cumhuriyet Anıtı  / Taksim Square and Republic Monument',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -203,9 +203,9 @@ var config = {
             image: 'https://i.ibb.co/FkLM9Zhh/6.png',
             description: '',
             location: {
-                center: [28.98510378818441,41.036986544282165],
-                zoom: 19,
-                pitch: 10,
+                center: [28.987598331130172,41.036887610727945],
+                zoom: 16.5,
+                pitch: 0,
                 bearing: 0,
                 speed: 1,
                 curve: 2
